@@ -2,11 +2,29 @@
 
 This is a REST API that processes an array of data and returns various categorized results.
 
-## API Endpoint
+## API Endpoints
 
-**POST** `/bfhl`
+**GET** `/bfhl` - Returns operation code
+**POST** `/bfhl` - Processes data array
 
-## Request Format
+## Deployment
+
+This API is deployed on Vercel and can be accessed at: `https://your-project-name.vercel.app/bfhl`
+
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev
+
+# Run in production mode
+npm start
+```
+
+## POST Request Format
 
 ```json
 {
